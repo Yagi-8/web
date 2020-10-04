@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обратная связь</title>
+  <link rel="shortcut icon" href="image/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css"  href="menu.css">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav>
+  <ul class="menu-main">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="history.html">История города</a></li>
+    <li><a href="infrastructure.html">Инфраструктура</a></li>
+    <li><a href="culture.html">Культура и искусство</a></li>
+    <li><a href="developerForm.html">Обратная связь</a></li>
+  </ul>
+</nav>
+<section class="fonForm" >
+  <h2 align="center" style="color: coral">Обратная связь</h2>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <form class="form" action="https://formspree.io/bogdan.456@yandex.ru"
+            method="POST">
+        <div class="form-group">
+          <label for="exampleInputName2" style="color: white">Имя</label>
+          <input type="text" class="form-control" id="exampleInputName2" name="имя" placeholder="Ваше имя">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2" style="color: white">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="Ваша почта">
+        </div>
+        <div >
+        <label for="message">Сообщение</label>
+        <textarea rows="5" name="message" id="message" placeholder="" required="" class="messageBox"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default" style="color: white" id="button">Отправить</button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<div id="footer">
+  <p align="center">Сайт города Иловайск &copy; Богдан Харченко</p>
+</div>
+</body>
+</html>

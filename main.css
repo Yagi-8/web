@@ -1,0 +1,76 @@
+body
+{
+
+
+  /*background-color: #8B0000;*/
+  background-image: url("image/bg.jpg");
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment:fixed;/*фиксация*/
+  /*background-size:justify;*/
+}
+
+#footer {
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  /*padding: 1px; /* Поля вокруг текста */
+  padding: 0;
+  background: #888888; /* Цвет фона */
+  color: #feb386; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+}
+
+p {
+  text-indent: 20px; /* Отступ первой строки в пикселах */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*margin-top: 0.5em; /* Отступ сверху */
+  /*margin-bottom: 1em; /* Отступ снизу */
+}
+
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+  float: right; /* Выравнивание по правому краю  */
+  margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+.sign {
+  float: right; /* Выравнивание по правому краю */
+  border: 1px solid #333; /* Параметры рамки */
+  padding: 7px; /* Поля внутри блока */
+  margin: 10px 0 5px 5px; /* Отступы вокруг */
+  background: #000000; /* Цвет фона */
+}
+.vstavki
+{
+  color: #feb386;
+  font-style: italic;
+}
+
+.fonForm
+{
+  background: rgba(0,0,0,0.6);
+  color:#ffffff;
+  margin-right: 5px;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 35%;
+}
+#button
+{
+  margin-right: 5px;
+  border-radius: 20px;
+  background-color: #feb386;
+
+}
+.messageBox
+{
+  width: 300px;
+}

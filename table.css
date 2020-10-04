@@ -1,0 +1,64 @@
+table
+{
+  /*background-color: #888888;*/
+  width: 80%;
+  height: 700px;
+  left: 50px;
+}
+
+.tableHeader
+{
+  height: 20px;
+  /*margin: 0;*/
+  padding: 0;
+}
+
+
+.fon
+{
+  background: rgba(0,0,0,0.6);
+  color:#ffffff;
+  margin-right: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+.fonTable
+{
+  background: rgba(0,0,0,0.6);
+  color:#ffffff;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+
+.block
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 500px;
+  margin-left: 20px;
+}
+.cell
+{
+
+}
+.infBlock
+{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+}
+.container
+{
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+}
+.container1
+{
+  display: inline-block;
+  /*height: 300px;
+  width: 200px;*/
+}

@@ -1,0 +1,168 @@
+.image
+{
+  position: absolute;
+  top:1%;
+
+  left: 5%;
+}
+.image1
+{
+  position: absolute;
+  top:1%;
+
+  left: 15%;
+}
+.image2
+{
+  position: absolute;
+  top:1%;
+
+  left: 25%;
+}
+.image3
+{
+  position: absolute;
+  top:1%;
+
+  left: 35%;
+}
+.image4
+{
+  position: absolute;
+  top:1%;
+
+  left: 45%;
+}
+.image5
+{
+  position: absolute;
+  top: 35%;
+
+  left: 5%;
+}
+.image6
+{
+  position: absolute;
+  top:35%;
+
+  left: 15%;
+}
+.image7
+{
+  position: absolute;
+  top:35%;
+
+  left: 25%;
+}
+.image8
+{
+  position: absolute;
+  top:35%;
+
+  left: 35%;
+}
+.image9
+{
+  position: absolute;
+  top:35%;
+
+  left: 45%;
+}
+
+
+.text
+{
+  margin-right: 5px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.6);
+  color:#ffffff;
+  font-style: italic;
+
+}
+
+.block1
+{
+  height: 200px;
+  width: 200px;
+ /* background-color: #00FF00;*/
+  position: absolute;
+  top:1%;
+
+  left: 20%;
+}
+
+.inf
+{
+    margin-right: 5px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.6);
+  color:#ffffff;
+}
+
+.container {
+  width: 600px;
+  overflow: scroll;
+}
+
+.table1
+{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222222;
+  height: 100vh;
+  /*width: 100%;*/
+  width: 2000px;
+  color: white;
+
+
+}
+.downRow
+{
+
+  height: 50px;
+  background-color: #000000;
+}
+.headerRow
+{
+  height: 50px;
+}
+.bodyRow
+{
+
+  padding-top: 0px;
+  /*margin-right: 5px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.6);
+  color:#ffffff;*/
+
+
+
+
+}
+.tableFooter
+{
+  color: #feb386;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 0.1;
+}
+
+
+
+
+
+
+
+.cell
+{
+  margin: 0;
+  position: relative;
+}
+
+p {
+  text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+

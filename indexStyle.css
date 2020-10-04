@@ -1,0 +1,49 @@
+body
+  {
+  background-image: url("bg.jpg");
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment:fixed;/*фиксация*/
+        /*background-size:justify;*/
+
+}
+  .block
+{
+
+    margin-left: 50px;
+    margin-right: 50px;
+  align-content: center;
+    color: bisque;
+}
+  .main-article
+  {
+    /*position: fixed;*/
+    position: absolute;
+
+    right: 25vh;
+    top: 25vh;
+    bottom: 25vh;
+    /*margin-left: 100px;
+    margin-top: 50px;*/
+    height: 300px;
+    width: 200px;
+    background-color: #00FF00;
+
+  }
+
+
+.footer-bg
+{
+  text-align: center;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  background-color: #b3d4fc;
+  top: 95%;
+  left: 0px;
+  padding-top: 0;
+
+}
+
